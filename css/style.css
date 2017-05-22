@@ -1,0 +1,57 @@
+   
+   <style>
+   nav {
+     width: 100%;
+     font-family: 'Dosis';
+     color: white;
+     z-index: 10;
+   }
+   
+   .intro-section {
+    color: black;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-family: 'Dosis';
+    font-size: 24pt;
+	text-align: center;
+   }
+ 
+   .about-section {
+    color: black;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-family: 'Dosis';
+    font-size: 24pt;
+	text-align: center;
+   }
+   
+   .cv-section {
+    color: black;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-family: 'Dosis';
+    font-size: 24pt;
+	text-align: center;
+   }
+   
+   .contact-section {
+    color: black;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-family: 'Dosis';
+    font-size: 24pt;
+	height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+   }
+   
+   a:link{
+     text-decoration: none;
+     color: black;
+   }
+   </style>
