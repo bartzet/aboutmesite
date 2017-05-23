@@ -11,80 +11,48 @@
 
   <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
-
- <style>
-   nav {
-     width: 100%;
-     font-family: 'Dosis';
-     color: white;
-     z-index: 10;
-   }
-   
-   .intro-section {
-    color: black;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 15%;
-    font-family: 'Dosis';
-    font-size: 24pt;
-	text-align: center;
-   }
- 
-   .about-section {
-    color: black;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 15%;
-    font-family: 'Dosis';
-    font-size: 24pt;
-	text-align: center;
-   }
-   
-   .cv-section {
-    color: black;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 15%;
-    font-family: 'Dosis';
-    font-size: 24pt;
-	text-align: center;
-   }
-   
-   .contact-section {
-    color: black;
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-right: 15%;
-    font-family: 'Dosis';
-    font-size: 24pt;
-	height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-   }
-   
-   a:link{
-     text-decoration: none;
-     color: black;
-   }
- </style>  
   
 <body data-spy="scroll" data-target=".navbar-fixed-top">
-<nav class="navbar navbar navbar-default navbar-fixed-top" role="navigation">
+
+<nav class="nav navbar navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href"#">Bartosz Ziemba</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
+    
+    <!-- Navigation 
       <li class=""><a href="#">Home</a></li>
       <li><a href="#about-me">About</a></li>
       <li><a href="#cv">CV</a></li>
       <li><a href="#contact-me">Contact</a></li>
     </ul>
-  </div>
+  
+  --></div>
+  
+
+  <!-- Nav links -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="hidden">
+        <a class="page-scroll" href="#page-top"></a>
+      </li>
+      <li>
+        <a class="page-scroll" href="#about-me">About</a>
+      </li>>
+      <li>
+        <a class="page-scroll" href="#cv">CV</a>
+      </li>
+      <li>
+        <a href="page-scroll" href="#contact-me">Contact</a>>
+      </li>
+    </ul>
+  </div>  
+
 </nav>
   <div class="intro-section">
 Hello! I'm Bartosz. If that sounds weird to you just call me Bart. If you reached that page, which not many people do, there needs to be reason behind it. Most likely you would like to find out more about me before we meet in person. Let's start.
@@ -108,7 +76,7 @@ ISTQB Certified from March 2015.
      E-mail: ziembabartek@gmail.com
   </div> 
 
-<!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
