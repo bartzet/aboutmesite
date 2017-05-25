@@ -1,80 +1,128 @@
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
-  <meta charset="utf-8">
-  <meta name="viewport"  content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bartosz Ziemba - About Me</title>
-  
-  <!-- Bootstrap Core CSS -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bartosz Ziemba - About Me</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
 </head>
-  
-<body data-spy="scroll" data-target=".navbar-fixed-top">
 
-<nav class="nav navbar navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href"#">Bartosz Ziemba</a>
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-    
-    <!-- Navigation 
-      <li class=""><a href="#">Home</a></li>
-      <li><a href="#about-me">About</a></li>
-      <li><a href="#cv">CV</a></li>
-      <li><a href="#contact-me">Contact</a></li>
-    </ul>
-  
-  --></div>
-  
 
-  <!-- Nav links -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li class="hidden">
-        <a class="page-scroll" href="#page-top"></a>
-      </li>
-      <li>
-        <a class="page-scroll" href="#about-me">About</a>
-      </li>>
-      <li>
-        <a class="page-scroll" href="#cv">CV</a>
-      </li>
-      <li>
-        <a href="page-scroll" href="#contact-me">Contact</a>>
-      </li>
-    </ul>
-  </div>  
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-</nav>
-  <div class="intro-section">
-Hello! I'm Bartosz. If that sounds weird to you just call me Bart. If you reached that page, which not many people do, there needs to be reason behind it. Most likely you would like to find out more about me before we meet in person. Let's start.
-  </div>
-  
-  
-  <div class="about-section">
-  <a id="about-me"></a>
-I am young, ambitious and open-minded person with an international background, looking to broaden knowledge and skills of the Quality Assurance and Test Automation.
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Bartosz Ziemba</a>
+            </div>
 
-ISTQB Certified from March 2015. 
-  </div>  
-  
-  <div class="cv-section">
-   <a id="cv"></a>
-   <a href="https://www.linkedin.com/in/bartosz-ziemba-4348b767/" target="_blank">CV</a> 
-  </div>
-  
-  <div class="contact-section" id="contact-me">
-     <a href="https://www.linkedin.com/in/bartosz-ziemba-4348b767/" target="_blank">LinkedIn</a><br>
-     E-mail: ziembabartek@gmail.com
-  </div> 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cv">CV</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact-me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>I do not find bugs, I prevent them.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About</h1>
+                    <div class="about-me-description">Hello! I'm Bartosz and I am a passionate QA since 2014. In my career I worked on agile projects from different industries such as automotive, betting or photography. I gained experience in both mobile and web areas.
+                    </div>
+                    <div class="about-me-description">As a part of the scrum team, I am fully involved in the software development life cycle ensuring that the product we are building meets requirements of the client in accordance to the highest quality standards.
+                    </div>
+                    <div class="about-me-description">In the automation world, I am trying to not to forget about the importance of the manual testing, nevertheless I develop my programming skills in order to build the automated test suites.</div>
+                    <div class="about-me-description">To improve the efficency and effectivenes of my work, I have been working with following tools. <a href="https://www.pgs-soft.com/jira-query-language-jql-the-most-flexible-way-to-search-in-jira/" target="_blank">JIRA</a> to get the overwiev of the state of the project and track defects. <a href="https://www.novoda.com/blog/getting-started-with-xcuitest-framework-for-testing-ios-apps/">XCUITest framework</a> framework to build the automated test suite for the iOS application. <a href="https://www.pgs-soft.com/finding-security-gaps-in-your-application-with-owasp-zap-tool/">OWASP ZAP</a> to find vulnerabilities of the web applications.</div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Services Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>CV</h1>
+                    <div>
+                            <div>November 2016 - present, Software Tester/QA at <a href="https://www.novoda.com/" target="_blank">Novoda</a> (London)</div>
+                            <div>January 2015 - October 2016, QA Specialist at <a href="https://www.pgs-soft.com/" target="_blank">PGS Software S.A.</a> (Rzeszów)</div>
+                            <div>April 2014 - December 2014, Software Tester at <a href="https://www.agilent.com" target="_blank">Agilent Technologies</a> (Barcelona)</div>
+                            <div>July 2013 - April 2015, Data Quality Assistant at <a href="https://www.reviewpro.com/" target="_blank">ReviewPro</a> (Barcelona)</div>
+                    </div>
+                    <h1>Education</h1>
+                        <div>
+                            <div>May 2017 - present, <a href="https://www.freeCodeCamp.com/" target="_blank">freeCodeCamp.com</a>, Full Stack Web Development Certification</a></div>
+                            <div>September 2010 - June 2013, Multimedia Graphic Design  <a href="http://kandydaci.wsiz.rzeszow.pl/en/lang.html" target="_blank">University of Infotmation Technology and Management</a></div>
+                            <div>January 2012 - June 2012, Advertising and Design <a href="http://madrid.universidadeuropea.es/" target="_blank">European University of Madrid</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-me" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <a href="https://www.linkedin.com/in/bartosz-ziemba-4348b767/" target="_blank">LinkedIn</a>
+                    <h1>E-mail: ziembabartek@gmail.com</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -84,6 +132,8 @@ ISTQB Certified from March 2015.
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>  
+    <script src="js/scrolling-nav.js"></script>
+
 </body>
+
 </html>
